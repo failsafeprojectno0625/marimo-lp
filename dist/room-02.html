@@ -1,0 +1,68 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>CASE 02｜投稿しても見られない — 深夜の資料室</title><style>
+:root{--bg:#0e0a08;--ink:#e9ddc8;--muted:#ab9780;--line:#59412c;--gold:#c3a477}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:"Yu Mincho","Hiragino Mincho ProN",serif}a{color:inherit}.hero{min-height:92svh;display:grid;align-items:end;position:relative;isolation:isolate;background:#0a0705}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#08050477 0%,#0b070650 34%,#0e0a08 94%),url('archive-room.png') center/cover no-repeat;z-index:-1}.nav{position:absolute;top:0;left:0;right:0;padding:28px max(24px,7vw);display:flex;justify-content:space-between;align-items:center;font-family:system-ui,sans-serif;font-size:11px;letter-spacing:.15em}.nav span{color:#d7b88e}.hero-copy{padding:0 max(24px,12vw) 11vh;max-width:1040px}.eyebrow,.kicker{font:11px system-ui,sans-serif;letter-spacing:.32em;color:var(--gold)}h1{font-size:clamp(42px,7.5vw,92px);font-weight:400;letter-spacing:.09em;margin:23px 0}.hero-copy p{font-size:clamp(15px,2vw,20px);line-height:2.2;color:#e5d6bf}.down{font:12px system-ui,sans-serif;color:var(--muted);letter-spacing:.2em}main{max-width:1000px;margin:auto;padding:110px 22px 100px}.intro{max-width:720px;margin:0 auto 75px;text-align:center}h2{font-size:clamp(25px,4vw,42px);font-weight:400;line-height:1.6}.intro p,.ending p{line-height:2.1;color:#e4d3bb;font-size:clamp(18px,2.5vw,23px)}.shelf{border-top:1px solid var(--line)}.file{border-bottom:1px solid var(--line)}.file-head{display:grid;grid-template-columns:115px 1fr 45px;gap:10px 25px;align-items:center;width:100%;text-align:left;background:transparent;color:var(--ink);border:0;padding:29px 12px;cursor:pointer;font:inherit}.file-head:hover{background:#291a1038}.serial{font:10px system-ui,sans-serif;letter-spacing:.1em;color:var(--gold);grid-row:span 2}.file-title{font-size:clamp(19px,3vw,30px)}.file-sub{font:12px system-ui,sans-serif;color:var(--muted);grid-column:2}.toggle{grid-column:3;grid-row:1 / span 2;font:28px system-ui,sans-serif;color:var(--gold);text-align:center}.file-head[aria-expanded=true] .toggle{transform:rotate(45deg)}.file-panel{padding:0 12px 32px 125px}.paper{background:#d9c8a9;color:#2e251c;padding:clamp(23px,5vw,55px);box-shadow:0 20px 55px #0009;position:relative}.paper:before{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,transparent 0 34px,#7d684b10 35px 36px)}.stamp{font:10px system-ui,sans-serif;letter-spacing:.17em;color:#6c4b30;border-bottom:1px solid #9f8869;padding-bottom:18px}.note{margin:30px 0;position:relative}.note span{font-weight:bold;color:#6a432a;font-size:14px}.note p{font-size:15px;line-height:2.05;margin:10px 0}.caution{font:11px/1.8 system-ui,sans-serif;color:#765d47}.file-actions{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;margin-top:27px;font:12px system-ui,sans-serif}.copy{background:transparent;border:1px solid #947757;padding:10px 14px;color:#4b3524;cursor:pointer}input{accent-color:#795233}.ending{text-align:center;max-width:650px;margin:110px auto 0}.cta{display:inline-block;margin:28px 10px;padding:16px 35px;border:1px solid #88664a;background:#361b16;color:#eee1d0;text-decoration:none;letter-spacing:.1em}.back{display:inline-block;margin:12px;color:var(--muted);font-size:13px}footer{padding:35px 20px;text-align:center;border-top:1px solid #34271d;font:10px system-ui,sans-serif;letter-spacing:.2em;color:#826e5c}@media(max-width:650px){.nav{padding:20px}.hero-copy{padding:0 24px 12vh}main{padding-top:70px}.file-head{grid-template-columns:1fr 30px;gap:9px;padding:23px 6px}.serial{grid-row:auto;grid-column:1}.file-title{grid-column:1}.file-sub{grid-column:1}.toggle{grid-column:2;grid-row:1 / span 3}.file-panel{padding:0 0 24px}.paper{padding:27px 21px}}
+
+/* ROOM 01 */
+.room-one{background:#e9dfca;color:#30271d;padding:clamp(22px,5vw,58px);font-family:"Yu Mincho","Hiragino Mincho ProN",serif;line-height:1.95;box-shadow:inset 0 0 60px #a8926d30}
+.room-one .room-kicker,.room-one .room-label,.room-one .room-work>span,.room-one .room-next>span{font-family:Georgia,serif;font-size:11px;letter-spacing:.17em;color:#866c4f}
+.room-one h2{font-size:clamp(25px,5vw,39px);font-weight:400;line-height:1.5;margin:18px 0}
+.room-one p{font-size:clamp(14px,2.7vw,16px);line-height:2.05}
+.room-one .room-lead{font-size:clamp(17px,3vw,21px);line-height:2.1;margin:18px 0 36px}
+.room-one em{font-style:normal;border-bottom:1px solid #9c7350}
+.room-rule{height:1px;background:#ad987c;margin:35px 0}
+.room-label{border-top:1px solid #c9b99e;padding-top:22px;margin:36px 0 14px}
+.room-example{border-left:3px solid #8e563f;background:#dcd0b8;padding:15px 20px;margin:25px 0}
+.room-example>span{font-size:11px;color:#765b45}.room-example p{margin:8px 0}
+.room-checklist label{display:flex;gap:12px;align-items:flex-start;border-bottom:1px solid #c6b69e;padding:17px 0;cursor:pointer}
+.room-checklist input{width:18px;height:18px;flex-shrink:0;accent-color:#795339;margin-top:7px}
+.room-checklist b{display:block;font-size:16px;font-weight:600}.room-checklist small{display:block;font-size:13px;line-height:1.9;color:#5e5040;margin-top:3px}
+.room-steps>div{display:flex;gap:18px;align-items:flex-start;padding:12px 0}.room-steps b{font:italic 23px Georgia;color:#976a4b}.room-steps span{font-size:14px}
+.room-work{border:1px solid #a48b6b;padding:24px;margin-top:35px;background:#e2d5bd}.room-work h3{font-size:22px;font-weight:400;margin:10px 0}.room-work textarea{width:100%;padding:14px;background:#f6efdf;color:#30271d;border:1px solid #b7a388;border-radius:0;font-size:15px;line-height:1.8;resize:vertical;font-family:inherit}.room-work button{background:#3c2b23;color:#f0dfc5;border:1px solid #3c2b23;padding:12px 18px;margin-top:12px;font:14px inherit;cursor:pointer}.room-work #room01-status{font-size:12px;margin-top:8px;min-height:20px}.room-footnote{font-size:12px;color:#766752;line-height:1.8;margin-top:25px}.room-next{display:flex;justify-content:space-between;align-items:center;gap:12px;border-top:1px solid #aa957a;margin-top:34px;padding-top:20px;flex-wrap:wrap}.room-next a{font-size:14px;color:#503728;text-decoration:underline;text-underline-offset:4px}
+
+/* Readable typography on mobile and desktop */
+.intro p,.ending p{font-size:clamp(18px,2.5vw,23px);color:#e4d3bb;line-height:2.1}
+.room-one{background:#d9c8a9;color:#30251b;padding:clamp(24px,5vw,64px);box-shadow:0 25px 70px #0008}
+.room-one p{font-size:clamp(17px,2.4vw,20px);line-height:2.05}
+.room-one .room-lead{font-size:clamp(20px,3vw,27px)}
+.room-one .room-checklist small{font-size:clamp(15px,2vw,18px)}
+.room-one .room-steps span{font-size:clamp(16px,2vw,19px)}
+.room-one .room-footnote{font-size:14px}
+.room-one .room-label{font-size:13px}
+.room-one h2{font-size:clamp(32px,5vw,52px)}
+.page-intro{max-width:800px;margin:0 auto 55px;text-align:center}
+.page-intro p{font-size:clamp(19px,2.7vw,25px);line-height:2.05;color:#e9dac6}
+.page-intro h2{font-size:clamp(31px,5vw,55px)}
+.room-container{max-width:940px;margin:auto;padding:80px 22px 120px}
+@media(max-width:650px){.room-container{padding:65px 14px 90px}.room-one{padding:28px 20px}.hero{min-height:72svh}.hero-copy p{font-size:19px}.room-one .room-checklist label{align-items:flex-start}}
+.room-work textarea{font-size:16px;min-height:145px}.room-work button{min-height:44px}.room-one .room-label{letter-spacing:.08em}</style><style>.room-next a,.archive-back{color:inherit;text-underline-offset:.3em}.file-head{text-decoration:none;color:inherit}.archive-back{display:inline-block;padding:12px}</style></head><body>
+<header class="hero"><div class="nav"><span>マリモちゃん</span><span>AFTER HOURS / FILE 002</span></div><div class="hero-copy"><div class="eyebrow">THE MIDNIGHT ARCHIVE — CASE 02</div><h1>投稿しても見られない。</h1><p>ここまで来たんですね。<br>この部屋では、投稿が読まれる前に何が起きているかを調べます。</p><a class="down" href="#record">↓ 記録を読む</a></div></header>
+<main class="room-container" id="record"><section class="page-intro"><div class="kicker">FIELD NOTES / 002</div><h2>書く前に、<br>確かめたいこと。</h2><p>投稿している。反応は少ない。<br>でも、直すべき場所はいつも文章なのだろうか。</p></section>
+<article class="room-one">
+<div class="room-kicker">CONFIDENTIAL / FIELD GUIDE 002</div>
+<h2>投稿しても見られない。</h2>
+<p class="room-lead">書き直す前に、確かめたい。<br><em>届いていないのか。届いたのに、読まれていないのか。</em></p>
+<div class="room-rule"></div>
+<div class="room-label">観察記録 01 — 「見られない」を分解する</div>
+<p>「伸びない」という一言には、いくつか別の問題が混ざっている。表示回数が少ない。表示されても反応が少ない。反応はあるのにフォローにつながらない。原因が違えば、次に試すことも変わる。</p>
+<div class="room-example"><span>切り分けメモ / 診断結果ではありません</span><p><strong>表示が少ない</strong>：読者との接点や話題の選び方など、文章以外の条件も確認する。</p><p><strong>表示はあるが反応が少ない</strong>：冒頭、具体性、読者が持ち帰るものを確認する。</p><p><strong>反応はあるが次につながらない</strong>：投稿を重ねた先にどんな人が見えるか、プロフィールと整合しているかを確認する。</p></div>
+<div class="room-label">観察記録 02 — 読む理由は最初にあるか</div>
+<p>冒頭で必要なのは、強い言葉より「自分に関係がある」と分かること。大げさな断定や不安をあおる表現で引きつけても、本文が期待に応えなければ信頼は残らない。</p>
+<div class="room-example"><span>書き出しの比較 / 仮の例</span><p>ぼんやり：「X運用で大切なことを紹介します」</p><p>具体的：「投稿は続けているのに、何を直せばいいか分からない人へ」</p><p>後者は対象の状況が見える。ただし、どちらが伸びるかは実測しなければ分からない。</p></div>
+<div class="room-label">観察記録 03 — 読者が最後まで読む5つの確認点</div>
+<div class="room-checklist">
+<label><input type="checkbox"><span><b>01 / 誰の、どの場面の話？</b><small>「初心者向け」だけでなく、今まさに困っている状況が見えるか。</small></span></label>
+<label><input type="checkbox"><span><b>02 / 冒頭と本文はつながっている？</b><small>最初に約束した話に、本文で答えているか。</small></span></label>
+<label><input type="checkbox"><span><b>03 / 一つは具体的な材料がある？</b><small>自分の行動、確認した事例、観察、仮の例など。実例と仮定は区別する。</small></span></label>
+<label><input type="checkbox"><span><b>04 / 読後に何が残る？</b><small>ノウハウだけでなく、笑い・発見・共感・次の行動でもいい。</small></span></label>
+<label><input type="checkbox"><span><b>05 / 投稿した人への評価が残る？</b><small>「役に立った」で終わらず、またこの人を見たい理由があるか。</small></span></label>
+</div>
+<div class="room-label">観察記録 04 — 改善は一か所ずつ</div>
+<div class="room-steps"><div><b>1</b><span>直近の投稿を数本見て、表示・反応・プロフィールへの流れを分けて記録する。</span></div><div><b>2</b><span>読者の反応や返信から、何に関心が集まったかを観察する。</span></div><div><b>3</b><span>次の投稿では、冒頭・切り口・具体例など、変える要素を一つ決める。</span></div><div><b>4</b><span>結果を記録する。単発の差だけで「成功法則」と決めない。</span></div></div>
+<div class="room-label">観察記録 05 — 伸びる投稿と、残る人物像</div>
+<p>ここがマリモちゃんの資料室で大事にしている点。投稿が一つ伸びても、次も見たい人になれるとは限らない。X運用の話だけでなく、日々の行動、人との会話、実験、失敗も投稿の材料になる。毎回全部を盛り込まず、その一投稿で何の評価を積むかを決める。</p>
+<div class="room-work"><span>今夜の実験 / 5分</span><h3>次の投稿で、変えるのは一つ。</h3><p>いま困っていること、次に試す変更点、何を観察するかを記録する。</p><textarea id="room02-answer" rows="5" placeholder="困っていること：
+次の投稿で変える一か所：
+投稿後に見る反応："></textarea><button id="room02-copy" type="button">実験メモをコピー</button><div id="room02-status" aria-live="polite"></div></div>
+<div class="room-footnote">この資料は、成果を保証する公式ではありません。「新マリモちゃん X運用マニュアル Ver.1」を基準に、投稿の役割と検証の考え方を整理したものです。Xの表示ロジックを断定するものではありません。</div>
+<div class="room-next"><a href="room-01.html">← 第1室</a> <a href="archive.html#files">資料室の入口へ</a> <a href="room-03.html">第3室「人は増えた。でも売れない」へ →</a></div>
+</article><section class="ending"><h2>次に試すことが、<br>ひとつ決まっただろうか。</h2><p>投稿を増やす前に、読む人と、その先に残るものを見てみる。</p><a class="cta" href="https://x.com/malimochandesu" target="_blank" rel="noopener">マリモちゃんに話してみる</a></section></main><footer>MARIMO-CHAN / STILL IN REHEARSAL.</footer>
+<script>document.getElementById('room02-copy')?.addEventListener('click',async()=>{const t=document.getElementById('room02-answer').value;const st=document.getElementById('room02-status');if(!t.trim()){st.textContent='メモを書いてからコピーしてください';return}try{await navigator.clipboard.writeText(t);st.textContent='コピーしました'}catch(e){st.textContent='コピーできない場合は文章を長押ししてコピーしてください'}});</script></body></html>
